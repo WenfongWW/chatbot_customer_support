@@ -1,12 +1,12 @@
 
-#openai.api_key = "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"
+#openai.api_key = ""
 
 from flask import Flask, render_template, request, jsonify
 import openai
 import os
 
 # Load the API key from an environment variable
-openai.api_key = "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"
+openai.api_key = ""
 
 app = Flask(__name__)
 
